@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#results, #detailedAnalysis {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.analysis {
+    background-color: #f9f9f9;
+    border-left: 4px solid #007BFF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.quote {
+    font-style: italic;
+    color: #555;
+}
+
+#detailedAnalysis {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+#detailedAnalysis h3 {
+    margin-top: 20px;
+}
+
+#detailedAnalysis .quote {
+    margin-top: 10px;
+    color: #333;
+    font-style: italic;
+}
+
+ul.insights {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul.insights li {
+    margin-bottom: 10px;
+}

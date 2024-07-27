@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Search & Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1>Reddit Search & Analysis</h1>
+        <p>Use this tool to search Reddit posts and comments based on a search term. Get insights into user behaviors, emotions, and pain points from the results.</p>
+        <input type="text" id="searchTerm" placeholder="Enter search term" onkeypress="handleKeyPress(event)">
+        <button onclick="searchReddit()">Search</button>
+    </div>
+    <div id="detailedAnalysis" class="hidden">
+        <h2>Comprehensive Analysis</h2>
+        <div id="problemStatement"></div>
+        <div id="analysisContent"></div>
+    </div>
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
